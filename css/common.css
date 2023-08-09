@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  background-color: #fffdf8;
+}
+
+header h1 {
+  padding-bottom: 29px;
+}
+
+.active {
+  color: #000;
+  font-weight: bold;
+}
+nav {
+  border-top: 2px #6a6a6a solid;
+  border-bottom: 2px #6a6a6a solid;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  margin-bottom: 36px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: sticky;
+  top: 0;
+}
+/* フレックスボックス */
+nav ul {
+  max-width: 1140px;
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+header nav li {
+  color: #54410c;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  /* ↑親と同じ文字色 */
+  text-decoration: none;
+}
+
+aside {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 57px;
+}
+aside:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: #322707;
+  padding-top: 42px;
+}
+
+footer section {
+  font-weight: bold;
+  max-width: 540px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #5f4e1c;
+  margin-bottom: 30px;
+}
+
+footer section h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1d1502;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 11px;
+  padding-bottom: 6px;
+}
+
+footer p {
+  font-size: 28px;
+  padding-bottom: 11px;
+  padding-bottom: 30px;
+}
+
+footer .logo {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.map:hover {
+  background-color: #fff;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+address {
+  color: #fffdf8;
+  padding-bottom: 30px;
+}
+
+footer adress img {
+  padding-right: 10px;
+}
+
+.small {
+  font-size: 20px;
+  font-family: Georgia;
+  font-weight: lighter;
+  background-color: #000;
+  height: 59px;
+  color: #fffdf8;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/* ページトップ */
+p.pagetop {
+  position: fixed;
+  right: 34px;
+  bottom: 0px;
+}
+
+/* 不透明度:0.7 */
+p.pagetop a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 991px) {
+  footer div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/* スマホ用CSS */
+@media (max-width: 575px) {
+  nav {
+    position: unset;
+  }
+  nav ul {
+    display: block;
+  }
+  nav li {
+    padding-bottom: 12px;
+  }
+  footer div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  footer .small span {
+    display: none;
+  }
+}

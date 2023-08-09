@@ -1,0 +1,86 @@
+@import url(common.css);
+
+.honnjitu {
+  font-family: "Kaisei Tokumin", serif;
+  max-width: 1110px;
+  height: 117px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 67px;
+  color: #1d1502;
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url(../img/since.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+/* FLEX BOX  */
+div article {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main section {
+  width: 540px;
+  margin-bottom: 67px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  border: 2px solid #4a4a4a;
+}
+
+main section h3 {
+  height: 83px;
+  width: 350px;
+  margin: 22px auto 23px auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #54410c;
+  background-image: url(../img/line.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+main section p {
+  font-size: 18px;
+  color: #1d1502;
+  width: 480px;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+main section .nedann {
+  font-size: 24px;
+  color: #54410c;
+  padding-bottom: 19px;
+  text-align: center;
+}
+
+main section .kotira {
+  color: #fffdf8;
+  font-size: 18px;
+  background: #6b5311;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 16.5px 130px;
+
+  background-image: url(../img/vector.svg);
+  background-repeat: no-repeat;
+  background-size: 18px 16px;
+  background-position: right 24px center;
+}
+
+@media (max-width: 991px) {
+  article {
+    display: block;
+  }
+  main section {
+    width: 95%;
+    margin: 0 auto 67px;
+  }
+}

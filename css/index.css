@@ -1,0 +1,103 @@
+@import url(common.css);
+
+.mainbej {
+  padding-bottom: 67px;
+}
+
+div .container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ninnki {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #000;
+  padding-bottom: 53px;
+}
+
+.ninnki ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 67px;
+  column-gap: 30px;
+}
+
+.ninnki h2 {
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: bold;
+
+  font-size: 28px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  margin-bottom: 50px;
+}
+
+.ninnki p {
+  color: #1d1502;
+  font-size: 20px;
+  max-width: 1103px;
+  height: 105px;
+  line-height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.honnjituno {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 77px;
+  border-bottom: 3px solid #000000;
+  padding-top: 67px;
+  padding-bottom: 53px;
+}
+.honnjituno h2 {
+  color: #1d1502;
+  font-family: "Kaisei Tokumin";
+  font-weight: bold;
+  font-size: 28px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  margin-bottom: 67px;
+}
+
+.honnjituno nav {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.honnjituno li {
+  padding: 25px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .mainbej img {
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+  }
+  .ninnki {
+    max-width: 1110px;
+    height: 592px;
+  }
+}
